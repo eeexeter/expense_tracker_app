@@ -24,7 +24,7 @@ object DatabaseModule {
     @Provides
     @Singleton
     fun provideDao(db: ExpenseDatabase): ExpenseDao {
-        return db.dao()
+        return db.expenseDao()
     }
 
 }
