@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.basic_template"
+    namespace = "com.exeter.expense_tracker_app"
     compileSdk {
         version = release(36)
     }
